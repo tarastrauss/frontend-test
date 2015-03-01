@@ -1,7 +1,7 @@
 
 # Frontend Developer Test
 
-Please clone this project to being your front end developer test, then download your repository and follow the installation instructions.
+Please fork this repository to begin your front end developer test, then download your repository and follow the installation instructions.
 
 # Installation
 Installation requires node.js on your computer
