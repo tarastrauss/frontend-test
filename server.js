@@ -116,7 +116,7 @@ app.post('/write', function(request, response) {
     }
     var msg = request.body.message;
     var phone = request.body.phone;
-    if (msg === undefined or phone === undefined) {
+    if (msg === undefined || phone === undefined) {
         response.status(400);
         response.send("Bad request");
         return;
