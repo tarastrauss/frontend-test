@@ -69,7 +69,8 @@ app.get('/states/:abbrev', function(request, response) {
 
     for (var ind=0; ind<states.length; ind++) {
         if (states[ind].abbreviation == abbrev) {
-            response.json(states[ind])
+            response.json(states[ind]);
+            return false;
         }
     }
     response.status(404);
