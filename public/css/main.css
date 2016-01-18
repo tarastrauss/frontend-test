@@ -1,0 +1,30 @@
+#landing {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  margin-top: 10%;
+}
+
+#login {
+  margin-top: 20px;
+  width: 70%;
+}
+
+#title {
+  margin-bottom: 30px;
+}
+
+#landing-map {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+#logout {
+  margin-left: 30px;
+}
+#welcome {
+  margin-left: 15px;
+  font-size: 20px;
+}

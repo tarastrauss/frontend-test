@@ -1,0 +1,18 @@
+ <div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="left">
+        <li><div id="welcome"> Welcome,
+          {{vm.loginService.currentUser}}!</div></li>
+        <li><div id="logout" class="waves-effect waves-light btn"
+          ng-click="vm.loginService.logout()">Logout</div></li>
+      </ul>
+      <div class="brand-logo center"> States of the Union </div>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="states.html">States</a></li>
+        <li class="active"><a href="messages.html">Messages</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
